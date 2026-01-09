@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <p>${details.description}</p>
           <p><strong>Schedule:</strong> ${details.schedule}</p>
           <p><strong>Availability:</strong> ${spotsLeft} spots left</p>
-          <div class="participants-section">
+          <div class="participants participants-section" aria-label="participants">
             <p class="participants-header"><strong>Participants:</strong></p>
             ${participantsList}
           </div>

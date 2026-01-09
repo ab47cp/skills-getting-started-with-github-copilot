@@ -172,3 +172,9 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants {
+  background: #fff;
+  border-radius: 6px;
+  padding: 10px;
+}
